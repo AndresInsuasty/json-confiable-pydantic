@@ -1,0 +1,11 @@
+[project]
+name = "03pydantic"
+version = "0.1.0"
+description = "Respuestas en JSON confiable con Pydantic: de mensajes en texto libre a objetos validados. Video 3 del minicurso Agentes de IA con Python desde cero."
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "openai>=1.40",
+    "pydantic>=2.7",
+    "python-dotenv>=1.0",
+]
